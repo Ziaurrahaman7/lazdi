@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+</head>
+<style>
+    header{
+        background: #ededed;
+    }
+    .t-left{
+        text-align: left;
+    }
+    .t-center{
+        text-align: center;
+    }
+    .t-right{
+        text-align: right;
+    }
+    .w-25{
+        width:25%;
+    }
+    .d-flex{
+        display:flex;
+    }
+    p{
+        margin:1px;
+        line-height: 25px;
+    }
+    .px-30{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .b3{
+        border-top:3px solid #ededed;
+    }
+    .border{
+        border-collapse: collapse;
+        border:1px solid #00000078;
+        margin-top: 30px;
+    }
+    .border th{
+        border:1px solid #00000078;
+    }
+    .border td{
+        border:1px solid #00000078;
+        padding: 3px;
+    }
+</style>
+<body>
+   <div class="content">
+    <header class="px-30">
+        <table style="width: 100%;">
+            <tr>
+                <th class="t-left w-25"><img src="https://industry.com.sa/assets/img/ar_logo.png" alt=""></th>
+                <th class="t-center"><h1>Invoice</h1></th>
+                <th class="t-right w-25">
+                    <p>06/10/23</p>
+                    <p>INVO-005</p>
+                </th>
+            </tr>
+        </table>
+    </header>
+        <table class="px-30" style="width: 100%;padding-top:10px;">
+            <tr>
+                <th  class="t-left"><h2>Billing Information</h2></th>
+                <th   class="t-left"><h2>Shipping Information</h2></th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="d-flex">
+                        <div>
+                            <p><strong>Company</strong></p>
+                            <p>ABC Company</p>
+                        </div>
+                        
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <p><strong>Name</strong></p>
+                        <p>Sam Doe</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+               <td>
+                <p><strong>Address</strong></p>
+                <p>Dhaka Mirpur</p>
+               </td>
+               <td>
+                <p><strong>Address</strong></p>
+                <p>Dhaka Mirpur</p>
+               </td>
+            </tr>
+        </table>
+        <table class="px-30 t-center b3 border" style="width: 100%;padding-top: 20px;">
+            <tr>
+                <th>Title</th>
+                <th class="t-center">image</th>
+                <th class="t-center">Quantity</th>
+                <th class="t-center">Unit Price</th>
+                <th class="t-center">Total</th>
+            </tr>
+            <tr>
+                <td class="t-left" >Product/Service 1</td>
+                <td>Sink</td>
+                <td>2</td>
+                <td>2000</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td class="t-left">Product/Service 2</td>
+                <td>Sink</td>
+                <td>2</td>
+                <td>2000</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td class="t-left">Product/Service 2</td>
+                <td>Sink</td>
+                <td>2</td>
+                <td>2000</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td class="t-right" colspan="4">Delivari Cost</td>
+                <td><strong>120</strong></td>
+            </tr>
+            <tr>
+                <td class="t-right" colspan="4">Discount Price</td>
+                <td><strong>120</strong></td>
+            </tr>
+            <tr>
+                <td class="t-right" colspan="4">Advance Price</td>
+                <td><strong>120</strong></td>
+            </tr>
+            <tr>
+                <td class="t-right" colspan="4">Total</td>
+                <td><strong>$120000</strong></td>
+            </tr>
+        </table>
+   </div>
+</body>
+</html>
